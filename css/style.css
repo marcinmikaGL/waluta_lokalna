@@ -1,0 +1,911 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2014-12-11, 01:47:37
+    Author     : marcinmika
+*/
+body {
+    
+    color:black !important;
+}
+
+.alert-danger {
+    
+    display: none !important;
+}
+
+td { padding: 2px;}
+
+
+.sort { cursor: pointer;}
+
+.fileupload-progress {
+	margin: 10px 0;
+}
+.fileupload-progress .progress-extended {
+	margin-top: 5px;
+}
+
+
+.error {
+  color: red;
+}
+
+@media (min-width: 481px) {
+  .navigation {
+    list-style: none;
+    padding: 0;
+  }
+  .navigation li {
+    display: inline-block;
+  }
+  .navigation li:not(:first-child):before {
+    content: "| ";
+  }
+}
+
+.fileinput-button {
+  position: relative;
+  overflow: hidden;
+}
+.fileinput-button input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  opacity: 0;
+  -ms-filter: 'alpha(opacity=0)';
+  font-size: 200px;
+  direction: ltr;
+  cursor: pointer;
+}
+
+/* Fixes for IE < 8 */
+@media screen\9 {
+  .fileinput-button input {
+    filter: alpha(opacity=0);
+    font-size: 100%;
+    height: 100%;
+  }
+}
+
+.lewo {
+    float:left;
+    width: 110px;
+    margin: 5px;
+      padding: 5px;
+}
+.lewo .btn-primary {
+display:none;    
+    
+}
+
+.lewo canvas {
+ margin: 1px;  
+}
+.lewo span {
+   font-size: 9px;
+   text-align: justify;
+}
+
+.cyfry_spr {
+    
+   border-color: #A94442;
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+background-color: #fcc;
+    
+}
+
+footer { text-align: center ; color:black; margin-bottom:10px; margin-top:10px; padding:15px; font-size: 10px;}
+.pole {
+border:1px solid #075C57;  text-align: justify;
+margin-top:10px;   
+padding: 0;
+}
+
+.sort { cursor: pointer;}
+.zolty {  background-color: #ccc;}
+.czerwony { color:red; font-weight: 600;}
+thead , th ,tfoot  tfoot tr td , tfoot , tfoot tr ,tfoot td  {
+   background-color: #d6dada; 
+   text-align: center;
+   border: 1px solid #075C57;
+    
+}
+.input-group { width: 100% !important; }
+
+.prawo_klient{
+margin-top: 0px; padding: 0; margin-left: 1%; 
+overflow: hidden; 
+width:40.6%;
+}
+
+select , option {
+    color:black !important;
+}
+
+
+.autocomplete-suggestions { border: 1px solid #999; background: #FFF; cursor: default; overflow: auto; -webkit-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); -moz-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); }
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+.autocomplete-no-suggestion { padding: 2px 5px;}
+.autocomplete-selected { background: #F0F0F0; }
+.autocomplete-suggestions strong { font-weight: bold; color: #000; }
+.autocomplete-group { padding: 2px 5px; }
+.autocomplete-group strong { font-weight: bold; font-size: 16px; color: #000; display: block; border-bottom: 1px solid #000; }
+
+#autocomplete-ajax { font-size: 28px; padding: 10px; border: 1px solid #CCC; display: block; margin: 20px 0; }
+
+
+@media screen and (max-width:1200px) { 
+    .prawo_klient{
+     width:100%; 
+     margin-left:0;
+     margin-top:10px;
+    }
+
+}
+select , option {
+    color:black;
+}
+
+
+
+
+.alert_top {
+    
+    margin-bottom:20px; width: 99%; margin-left:auto; margin-right: auto; margin-top:-20px;
+}
+.control-group input {
+ width:100%;   
+    
+}
+
+.control-group input[type="checkbox"] {
+ width:auto ;   
+    
+}
+
+.input-group-addon {
+    
+    padding: 0px 20px 0px 12px;
+    width: 5%;
+}
+
+.control-group { margin-top:10px;}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+
+#kontakt2 , #kotakt2 , #kontakt3 , #kontakt4 {
+    display:none;
+}
+
+#strony tbody tr th { border:none; background-color: transparent;}
+#strony tbody tr td  { border:none; background-color: transparent;}
+tbody tr td {text-align: center;
+border: 1px solid #075C57;}
+.active {
+   color: #555;
+text-decoration: none;
+background-color: #e5e5e5;
+-webkit-box-shadow: inset 0 3px 8px rgba(0,0,0,0.125);
+-moz-box-shadow: inset 0 3px 8px rgba(0,0,0,0.125);
+box-shadow: inset 0 3px 8px rgba(0,0,0,0.125);
+}
+label {margin-bottom:0; }
+.btn {
+border:2px solid #075C57;
+background-color: #fff;
+color:#b88343;
+padding: 2px 5px;
+margin:5px;
+
+}
+.login { margin-left:auto; margin-right:auto; width: 330px; }
+.spady {
+
+    padding: 5px;
+}
+.user { width: 72%;  height: 34px;}
+.add_user {
+ padding: 5px;
+ margin-top:-20px;
+}
+.user option { height: 34px; }
+html, body {
+	width:100%;
+	padding:0px;
+	margin:0px;
+}
+sup {
+    color:red;
+}
+
+
+header {
+	background: url('../img/logo.jpg') no-repeat;
+	height:149px;
+	background-position: center;
+        margin:0px;
+	padding:0px;
+	width:100%;
+        background-color: #fffbf0;
+}
+
+.top_info {
+ border: 1px solid black ;
+ padding: 5px;
+    
+}
+
+.popups{
+-webkit-box-shadow:none;
+-moz-box-shadow: none;
+box-shadow: none;
+ background-color:transparent ; 
+ border: none; 
+ width: 100%; margin-left:auto;   
+    
+}
+
+
+.form-horizontal .controls {
+ margin-left: 110px;   
+    
+}
+
+.form-horizontal .control-label  {
+ width: 95px;    
+    
+}
+
+.form-horizontal .control-group {
+ margin-bottom: 10px;   
+}
+
+   
+
+
+input ,  .form-control{
+    border:1px solid #075C57;
+padding: 5px;
+border-radius: 4px;
+}
+
+textarea {
+        border:1px solid #075C57;
+        padding: 5px;
+border-radius: 4px;
+}
+
+select {
+margin-top: 5px;    
+}
+
+.badanie {width: 40px;}
+section,nav {
+	width:100%;
+}
+
+div.ctn {
+	margin: 10px;
+}
+
+div.leftNotes {
+	width:66%;
+	float:left;
+}
+div.rightOther {
+	width:30%;
+	float:right;
+}
+
+div.a {
+	width:160px;
+	float:left;
+}
+div.b {
+	height:140px;
+	float:left;
+} 
+
+ .input-small .small {
+ 	 width:40px;
+ 	 background-color:#444;
+ }
+ 
+#competition {
+ 	 text-align:right;
+ 	 margin-top:-4px;
+ 	 margin-bottom:12px;
+}
+
+.boxes {
+  padding:9px 0px 0px 14px;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px; 
+  border: 1px solid #aaa;
+  margin-bottom:3px;
+  color: #000;
+  font-weight:bold;
+}
+
+.boxes_top {
+  padding:9px 0px 0px 14px;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px; 
+  border: 1px solid #aaa;
+  margin-bottom:3px;
+  color: #000;
+  font-weight:bold;
+  background-color: #fafafa;
+  background-image: -moz-linear-gradient(top, #ffffff, #f2f2f2);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f2f2f2));
+  background-image: -webkit-linear-gradient(top, #ffffff, #f2f2f2);
+  background-image: -o-linear-gradient(top, #ffffff, #f2f2f2);
+  background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);
+width: 150px; height: 110px; 
+position: absolute; 
+top:10px; 
+right:10px; 
+padding: 10px;
+}
+
+.data-section {
+min-height: 100px;   
+    
+}
+
+
+div.gold {
+  background-color:#ffff11;
+}
+div.silver {
+  background-color:#f5f5f5;
+}
+div.important {
+  background-color:#ff1111;
+  color: #fff;
+}
+div.info {
+  background-color:#8181ff;
+  color: #fff;
+}
+
+div#main_data {
+  width:40%;
+  float:left;
+}
+
+.popup ,popup2 {
+top:600px;
+
+position: absolute;
+margin-left: auto;
+margin-right: auto;
+width: 1400px;
+left: 0;
+right: 0;
+z-index: 10;
+padding: 15px;    
+background-color: #fff;
+border:#000 outset 1px;
+   -webkit-border-radius:7px;-moz-border-radius:7px;border-radius:7px;
+    /* Le box-shadow */
+    -webkit-box-shadow:3px 3px 6px 2px #d2d2d2;
+    -moz-box-shadow:3px 3px 6px 2px #d2d2d2;
+    box-shadow:3px 3px 6px 2px #d2d2d2;
+}
+
+div .prawo {  width:56%;  float:right;}
+div#additional_data {
+width: 100%;
+min-height: 300px; 
+}
+
+section, nav {
+width: 100%;
+}
+
+.title-section {
+  /* height:25px; */
+  width:100%;
+  margin-bottom: 15px;
+background-color: #c9defb;
+background: #075C57;
+background: linear-gradient(top, #043431 0, #09726B 40%, #09776F 50%, #09726B 60%, #043431 100%) no-repeat;
+background: -webkit-linear-gradient(top, #043431 0, #09726B 40%, #09776F 50%, #09726B 60%, #043431 100%) no-repeat;
+background: -moz-linear-gradient(top, #043431 0, #09726B 40%, #09776F 50%, #09726B 60%, #043431 100%) no-repeat;
+background: -o-linear-gradient(top, #043431 0, #09726B 40%, #09776F 50%, #09726B 60%, #043431 100%) no-repeat;
+background: -ms-linear-gradient(top, #043431 0, #09726B 40%, #09776F 50%, #09726B 60%, #043431 100%) no-repeat;
+background: linear-gradient(top, #043431 0, #09726B 40%, #09776F 50%, #09726B 60%, #043431 100%) no-repeat;
+-svg-background: linear-gradient(top, #043431 0, #09726B 40%, #09776F 50%, #09726B 60%, #043431 100%) no-repeat;
+
+}
+
+.title-section .title {
+width:auto;
+display: table;
+}
+
+.title-section .title p {
+    
+  width: auto;
+  text-align: left;
+  padding: 8px 5px 8px 5px;
+  color:#fff;
+}
+
+div.clear {
+  clear:both;
+}
+
+.navbar-inner {
+min-height: 40px;
+padding-right: 20px;
+padding-left: 20px;
+background-color: #788687;
+background-image: -moz-linear-gradient(top,#fff,#f2f2f2);
+background-image: -webkit-gradient(linear,0 0,0 100%,from(#fff),to(#788687));
+background-image: -webkit-linear-gradient(top,#fff,#788687);
+background-image: -o-linear-gradient(top,#fff,#788687);
+background-image: linear-gradient(to bottom,#fff,#788687);
+background-repeat: repeat-x;
+border: 1px solid #d4d4d4;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff',endColorstr='#fff2f2f2',GradientType=0);
+-webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.065);
+-moz-box-shadow: 0 1px 4px rgba(0,0,0,0.065);
+box-shadow: 0 1px 4px rgba(0,0,0,0.065);
+}
+
+.navbar {
+position: relative;
+min-height: 50px;
+margin-bottom: 20px;
+border: 1px solid transparent;
+}
+
+.navbar .nav>li {
+float: left;
+}
+
+.nav>li {
+position: relative;
+display: block;
+}
+
+button { border: 1px solid #075C57;  border-radius: 4px;}
+
+.navbar .nav>li>a {
+float: none;
+padding: 10px 15px 10px;
+color: #27394f;
+text-decoration: none;
+text-shadow: 0 1px 0 #fff;
+}
+/* Default styling for jQuery Datepicker v5.0.0. */
+.datepick {
+	background-color: #fff;
+	color: #000;
+	border: 1px solid #444;
+    border-radius: 0.25em;
+    -moz-border-radius: 0.25em;
+    -webkit-border-radius: 0.25em;
+	font-family: Arial,Helvetica,Sans-serif;
+	font-size: 90%;
+}
+
+#popupDatepicker , .input-group-addon {
+ border: 1px solid #075C57;   
+    
+}
+
+
+
+.datepick-rtl {
+	direction: rtl;
+}
+.datepick-popup {
+	z-index: 1050;
+}
+.datepick-disable {
+	position: absolute;
+	z-index: 100;
+	background-color: white;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+.datepick a {
+	color: #fff;
+	text-decoration: none;
+}
+.datepick a.datepick-disabled {
+	color: #888;
+	cursor: auto;
+}
+.datepick button {
+    margin: 0.25em;
+    padding: 0.125em 0em;
+    background-color: #fcc;
+    border: none;
+    border-radius: 0.25em;
+    -moz-border-radius: 0.25em;
+    -webkit-border-radius: 0.25em;
+    font-weight: bold;
+}
+.datepick-nav, .datepick-ctrl {
+	float: left;
+	width: 100%;
+	background-color: #000;
+	color: #fff;
+	font-size: 90%;
+	font-weight: bold;
+}
+.datepick-ctrl {
+	background-color: #600;
+}
+.datepick-cmd {
+	width: 30%;
+}
+.datepick-cmd:hover {
+	background-color: #777;
+}
+.datepick-ctrl .datepick-cmd:hover {
+	background-color: #f08080;
+}
+.datepick-cmd-prevJump, .datepick-cmd-nextJump {
+	width: 8%;
+}
+a.datepick-cmd {
+	height: 1.5em;
+}
+button.datepick-cmd {
+	text-align: center;
+}
+.datepick-cmd-prev, .datepick-cmd-prevJump, .datepick-cmd-clear {
+	float: left;
+	padding-left: 2%;
+}
+.datepick-cmd-current, .datepick-cmd-today {
+	float: left;
+	width: 35%;
+	text-align: center;
+}
+.datepick-cmd-next, .datepick-cmd-nextJump, .datepick-cmd-close {
+	float: right;
+	padding-right: 2%;
+	text-align: right;
+}
+.datepick-rtl .datepick-cmd-prev, .datepick-rtl .datepick-cmd-prevJump,
+.datepick-rtl .datepick-cmd-clear {
+	float: right;
+	padding-left: 0%;
+	padding-right: 2%;
+	text-align: right;
+}
+.datepick-rtl .datepick-cmd-current, .datepick-rtl .datepick-cmd-today {
+	float: right;
+}
+.datepick-rtl .datepick-cmd-next, .datepick-rtl .datepick-cmd-nextJump,
+.datepick-rtl .datepick-cmd-close {
+	float: left;
+	padding-left: 2%;
+	padding-right: 0%;
+	text-align: left;
+}
+.datepick-month-nav {
+	float: left;
+	background-color: #777;
+	text-align: center;
+}
+.datepick-month-nav div {
+	float: left;
+	width: 12.5%;
+	margin: 1%;
+	padding: 1%;
+}
+.datepick-month-nav span {
+	color: #888;
+}
+.datepick-month-row {
+	clear: left;
+}
+.datepick-month {
+	float: left;
+	width: 15em;
+	border: 1px solid #444;
+	text-align: center;
+}
+.datepick-month-header, .datepick-month-header select, .datepick-month-header input {
+	height: 1.5em;
+	background-color: #444;
+	color: #fff;
+	font-weight: bold;
+}
+.datepick-month-header select, .datepick-month-header input {
+	height: 1.4em;
+	margin: 0em;
+	padding: 0em;
+	border: none;
+	font-size: 100%;
+}
+.datepick-month-header input {
+	position: absolute;
+	display: none;
+}
+.datepick-month table {
+	width: 100%;
+	border-collapse: collapse;
+}
+.datepick-month thead {
+	border-bottom: 1px solid #aaa;
+}
+.datepick-month th, .datepick-month td {
+	margin: 0em;
+	padding: 0em;
+	font-weight: normal;
+	text-align: center;
+}
+.datepick-month th {
+	border: 1px solid #777;
+}
+.datepick-month th, .datepick-month th a {
+	background-color: #777;
+	color: #fff;
+}
+.datepick-month td {
+	background-color: #eee;
+	border: 1px solid #aaa;
+}
+.datepick-month td.datepick-week {
+	border: 1px solid #777;
+}
+.datepick-month td.datepick-week * {
+	background-color: #777;
+	color: #fff;
+	border: none;
+}
+.datepick-month a {
+	display: block;
+	width: 100%;
+	padding: 0.125em 0em;
+	background-color: #eee;
+	color: #000;
+	text-decoration: none;
+}
+.datepick-month span {
+	display: block;
+	width: 100%;
+	padding: 0.125em 0em;
+}
+.datepick-month td span {
+	color: #888;
+}
+.datepick-month td .datepick-other-month {
+	background-color: #fff;
+}
+.datepick-month td .datepick-weekend {
+	background-color: #ddd;
+}
+.datepick-month td .datepick-today {
+	background-color: #f0c0c0;
+}
+.datepick-month td .datepick-highlight {
+	background-color: #f08080;
+}
+.datepick-month td .datepick-selected {
+	background-color: #777;
+	color: #fff;
+}
+.datepick-month th.datepick-week {
+	background-color: #777;
+	color: #fff;
+}
+.datepick-status {
+	clear: both;
+	background-color: #ddd;
+	text-align: center;
+}
+.datepick-clear-fix {
+	clear: both;
+}
+
+/**
+ * SyntaxHighlighter
+ * http://alexgorbatchev.com/
+ *
+ * SyntaxHighlighter is donationware. If you are using it, please donate.
+ * http://alexgorbatchev.com/wiki/SyntaxHighlighter:Donate
+ *
+ * @version
+ * 2.1.364 (October 15 2009)
+ * 
+ * @copyright
+ * Copyright (C) 2004-2009 Alex Gorbatchev.
+ *
+ * @license
+ * This file is part of SyntaxHighlighter.
+ * 
+ * SyntaxHighlighter is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Lesser General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * SyntaxHighlighter is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with SyntaxHighlighter.  If not, see <http://www.gnu.org/copyleft/lesser.html>.
+ */
+/************************************
+ * Default Syntax Highlighter theme.
+ * 
+ * Interface elements.
+ ************************************/
+
+.syntaxhighlighter
+{
+	background-color: #fff !important;
+}
+
+/* Highlighed line number */
+.syntaxhighlighter .line.highlighted .number
+{
+	color: black !important;
+}
+
+/* Highlighed line */
+.syntaxhighlighter .line.highlighted.alt1,
+.syntaxhighlighter .line.highlighted.alt2
+{
+	background-color: #e0e0e0 !important;
+}
+
+/* Gutter line numbers */
+.syntaxhighlighter .line .number
+{
+	color: #afafaf !important;
+}
+
+/* Add border to the lines */
+.syntaxhighlighter .line .content
+{
+	border-left: 3px solid #6CE26C !important;
+	color: #000 !important;
+}
+
+.syntaxhighlighter.printing .line .content 
+{
+	border: 0 !important;
+}
+
+/* First line */
+.syntaxhighlighter .line.alt1
+{
+	background-color: #fff !important;
+}
+
+/* Second line */
+.syntaxhighlighter .line.alt2
+{
+	background-color: #F8F8F8 !important;
+}
+
+.syntaxhighlighter .toolbar
+{
+	background-color: #F8F8F8 !important;
+	border: #E7E5DC solid 1px !important;
+}
+
+.syntaxhighlighter .toolbar a
+{
+	color: #a0a0a0 !important;
+}
+
+.syntaxhighlighter .toolbar a:hover
+{
+	color: red !important;
+}
+
+/************************************
+ * Actual syntax highlighter colors.
+ ************************************/
+.syntaxhighlighter .plain,
+.syntaxhighlighter .plain a
+{ 
+	color: #000 !important;
+}
+
+.syntaxhighlighter .comments,
+.syntaxhighlighter .comments a
+{ 
+	color: #008200 !important;
+}
+
+.syntaxhighlighter .string,
+.syntaxhighlighter .string a
+{
+	color: blue !important; 
+}
+
+.syntaxhighlighter .keyword
+{ 
+	color: #069 !important; 
+	font-weight: bold !important; 
+}
+
+.syntaxhighlighter .preprocessor 
+{ 
+	color: gray !important; 
+}
+
+.syntaxhighlighter .variable 
+{ 
+	color: #a70 !important; 
+}
+
+.syntaxhighlighter .value
+{ 
+	color: #090 !important; 
+}
+
+.syntaxhighlighter .functions
+{ 
+	color: #ff1493 !important; 
+}
+
+.syntaxhighlighter .constants
+{ 
+	color: #0066CC !important; 
+}
+
+.syntaxhighlighter .script
+{ 
+	background-color: yellow !important;
+}
+
+.syntaxhighlighter .color1,
+.syntaxhighlighter .color1 a
+{ 
+	color: #808080 !important; 
+}
+
+.syntaxhighlighter .color2,
+.syntaxhighlighter .color2 a
+{ 
+	color: #ff1493 !important; 
+}
+
+.syntaxhighlighter .color3,
+.syntaxhighlighter .color3 a
+{ 
+	color: red !important; 
+}
